@@ -17,7 +17,6 @@ def load_data():
     url = "https://archive.ics.uci.edu/ml/machine-learning-databases/car/car.data"
     columns = ['buying', 'maint', 'doors', 'persons', 'lug_boot', 'safety', 'class']
     return pd.read_csv(url, names=columns)
-
 df =load_data()
 
 
