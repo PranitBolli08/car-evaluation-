@@ -18,7 +18,7 @@ def load_data():
     columns = ['buying', 'maint', 'doors', 'persons', 'lug_boot', 'safety', 'class']
     return pd.read_csv(url, names=columns)
 
-df = load_data()
+df =load_data()
 
 
 
