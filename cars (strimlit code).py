@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 
 # App Title and Credit
 st.title("🚗 Car Evaluation Classifier using Random Forest & Streamlit")
-st.write("Created by Aftab | Predict the car condition based on various features using Machine Learning.")
+st.write("Created by Pranit | Predict the car condition based on various features using Machine Learning.")
 
 # File uploader (optional if user wants to try different data)
 uploaded_file = st.file_uploader(" Upload your car.csv file", type=['csv'])
